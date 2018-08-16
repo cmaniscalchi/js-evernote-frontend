@@ -1,3 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+html, body
+{
+    margin: 0px;
+    font-family: Raleway;
+}
+
 /* Sidebar Menu */
 #sidenav {
     /* height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -10,13 +18,19 @@
     background-color: #F0F0F0;
     overflow-x: hidden; /* Disable horizontal scroll */
 
-    margin-top: 20px;
-    margin-right: 20px;
+    margin: 20px;
+
+
     /* display: block; */
 }
 
 .note-titles {
   margin: 10px;
+}
+
+h2 {
+  font-color: purple;
+  text-align: center;
 }
 
 h3 {
